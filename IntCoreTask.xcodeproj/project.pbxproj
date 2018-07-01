@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		645CD9C45AE5D250EC3CE15B /* Pods_IntCoreTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0379F53A42436691E14FACF /* Pods_IntCoreTask.framework */; };
+		8419F4D120E8FE1200B61C55 /* RoundedBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419F4D020E8FE1200B61C55 /* RoundedBottom.swift */; };
 		84524CD620E69BDB0071E2D8 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 84524CD320E69BDB0071E2D8 /* profile.png */; };
 		84524CDB20E69C570071E2D8 /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = 84524CDA20E69C570071E2D8 /* male.png */; };
 		84524CDD20E69C7C0071E2D8 /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = 84524CDC20E69C7C0071E2D8 /* female.png */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		476BA11AAC277E807A29BFCE /* Pods-IntCoreTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntCoreTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntCoreTask/Pods-IntCoreTask.release.xcconfig"; sourceTree = "<group>"; };
+		8419F4D020E8FE1200B61C55 /* RoundedBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBottom.swift; sourceTree = "<group>"; };
 		84524CD320E69BDB0071E2D8 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 		84524CDA20E69C570071E2D8 /* male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male.png; sourceTree = "<group>"; };
 		84524CDC20E69C7C0071E2D8 /* female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female.png; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				84FA927F20E64F6500B21DD5 /* RoundedImage.swift */,
+				8419F4D020E8FE1200B61C55 /* RoundedBottom.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FA928020E64F6500B21DD5 /* RoundedImage.swift in Sources */,
+				8419F4D120E8FE1200B61C55 /* RoundedBottom.swift in Sources */,
 				84524CFA20E6CEBA0071E2D8 /* CustomSubCell.swift in Sources */,
 				8484FC0E20E7C6400085B87C /* Movie.swift in Sources */,
 				84FA924D20E63DB000B21DD5 /* ViewController.swift in Sources */,
